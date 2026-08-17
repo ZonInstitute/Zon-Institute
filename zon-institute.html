@@ -664,7 +664,7 @@ function viewHome(){
 function viewAbout(){
   const wrap = el("div", {class:"view"});
   wrap.appendChild(topbar());
-  wrap.appendChild(pageHead("About Us", "The people and units behind Zon Institute, and where to follow along."));
+  wrap.appendChild(pageHead("About Us", " "));
 
   const content = el("div", {class:"content"});
   const blackPanel = el("div", {class:"about-black"}, [
@@ -698,7 +698,7 @@ function viewBusinessUnits(){
     title:"Social Media Business Units",
     meta:"1 page",
     pages:[{
-      eyebrow:"Digital Media", title:"Social Media Business Units",
+      eyebrow:"Digital Media", title:"Digital Media Business Units",
       build(c){
         c.appendChild(el("div", {class:"tile-grid"}, [
           socialUnitTile("YouTube","youtube"),
@@ -804,7 +804,7 @@ function viewAffiliates(){
 function viewConnect(){
   const wrap = el("div", {class:"view"});
   wrap.appendChild(topbar());
-  wrap.appendChild(pageHead("Connect With Us", "Reach Zon Institute online, or in person."));
+  wrap.appendChild(pageHead("Connect With Us", "Reach Zon Institute online, or offline"));
   const content = el("div", {class:"content"});
 
   const digital = el("div", {class:"category"});
