@@ -789,7 +789,7 @@ function viewAffiliates(){
     pages:[{
       eyebrow:"Partners", title:"Affiliates",
       build(c){
-        c.appendChild(el("div", {class:"affiliate-cols"}, ["Name","Description","Link","Notes"].map(t=>el("div",{},t))));
+        c.appendChild(el("div", {class:"affiliate-cols"}, ["","","",""].map(t=>el("div",{},t))));
         c.appendChild(el("div", {class:"empty-row"}, "No affiliates listed yet"));
       }
     }]
